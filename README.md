@@ -13,7 +13,7 @@
 </p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/readme/overview-dark.webp">
-  <img src="assets/readme/overview-light.webp" alt="The Overview page: a two-node cluster with seven guests, six of them running, and a list of six things worth a look." width="100%">
+  <img src="assets/readme/overview-light.webp" alt="The Overview page: a two-node cluster with sixteen guests, fourteen of them running, and a list of things worth a look." width="100%">
 </picture>
 
 Proxframe runs as a small service in a container on one of your nodes and talks to the normal Proxmox API. You sign in with your own Proxmox account, and the stock interface keeps working beside it.
