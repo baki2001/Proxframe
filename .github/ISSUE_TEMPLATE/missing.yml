@@ -1,0 +1,17 @@
+name: Something I need is missing
+description: A task you still do in the stock Proxmox interface
+labels: [feature]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Proxframe version
+  - type: textarea
+    id: task
+    attributes:
+      label: Which task, and where in Proxmox do you do it today
+    validations: {required: true}
+  - type: textarea
+    id: why
+    attributes:
+      label: How often, and what setup (single node, cluster, with or without Backup Server)

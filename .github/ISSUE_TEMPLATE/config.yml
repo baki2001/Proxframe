@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security problem
+    url: https://github.com/baki2001/proxframe/security/advisories/new
+    about: Private route for security problems.
+  - name: Question or idea
+    url: https://github.com/baki2001/proxframe/discussions
+    about: Questions, ideas and show-and-tell go in Discussions.

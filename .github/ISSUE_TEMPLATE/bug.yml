@@ -1,0 +1,29 @@
+name: Something is wrong
+description: A screen, action or message that does not behave as it should
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Proxframe version
+      description: Shown in the app.
+    validations: {required: true}
+  - type: input
+    id: proxmox
+    attributes:
+      label: Proxmox VE and Backup Server versions
+      description: For example VE 9.2.x, single node or cluster.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what you expected
+    validations: {required: true}
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Screenshots help. Remove IP addresses, host names and tokens before you post. This is a public page.
