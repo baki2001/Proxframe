@@ -8,7 +8,7 @@ Versions in the order I plan to ship them. There are no dates. A version ships w
 | 0.4 | New guest, Change, Try again, Show as command, node shell, node updates and disks, HA and replication | Shipped |
 | 0.5 | Hub passkeys, recovery codes, WebAuthn, OpenID realms, a check before risky actions, signed releases | Shipped |
 | 0.6 | Alerts to your own targets set up on Proxmox's notification system, the worth-a-look list, warnings before risky updates | Shipped |
-| 0.7 | Guided first sign-in for a fresh install, my own security review of the hub and installer and a public threat model, fuzzing, the installer tested on fresh Proxmox 9.0 to 9.2 (single node and cluster), consoles checked on real nodes | Next |
+| 0.7 | Guided first sign-in for a fresh install, my own security review of the hub and installer and a public threat model, fuzzing, the installer tested on fresh Proxmox 9.0 to 9.2 (single node and cluster), consoles checked on real nodes. Pulled forward into 0.7: backup restore with a restore test and a "last tested" date per guest, adding and removing disks and network cards, scheduled backup jobs, findings first on the Overview with an action on each, alerts from the hub's own findings, and a hub audit log | Next |
 | 0.8 | Phone app for iOS and Android, biometric lock, several hubs, push notifications, Live Activities | Planned |
 | 0.9 | Full guest editor, pending changes, raw config, cloud-init, guest agent, snapshot tree, clones, templates, scheduled snapshots | Planned |
 | 0.10 | Migration preview, disks, guest firewall editing, restore, remote access page, host helper for temperatures and fans | Planned |
