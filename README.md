@@ -18,7 +18,7 @@
 
 Proxframe runs as a small service in a container on one of your nodes and talks to the normal Proxmox API. You sign in with your own Proxmox account, and the stock interface keeps working beside it.
 
-This repository is the public side of the project: the docs, the roadmap, release notes and the issue tracker. The code is not here. Proxframe is closed source, and the current release, 0.6.0 from 14 October 2026, is free for up to 3 nodes.
+This repository is the public side of the project: the docs, the roadmap, release notes and the issue tracker. The code is not published here. Proxframe will be source-available under the Business Source License 1.1: free for homelabs and for organisations up to 3 nodes, with each version converting to Apache 2.0 four years after its release. The current release is 0.6.0 from 14 October 2026.
 
 I work on it alone. [Quality and testing](docs/quality.md) lists the checks every change passes before it ships.
 
